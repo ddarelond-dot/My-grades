@@ -1,0 +1,6 @@
+{
+  "name": "Moyenne ED - Calculateur EcoleDirecte",
+  "description": "Calculateur de vraie moyenne générale et par matière avec coefficients personnalisés, simulateur de notes et synchronisation automatique avec EcoleDirecte.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

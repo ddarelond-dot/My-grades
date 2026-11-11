@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #09090c;
+    color: #f1f5f9;
+  }
+
+  .font-display {
+    font-family: 'Outfit', sans-serif;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom stylish glow and dark card accents */
+.glow-emerald {
+  box-shadow: 0 0 40px -10px rgba(34, 197, 94, 0.18);
+}
+
+.glow-yellow {
+  box-shadow: 0 0 40px -10px rgba(250, 204, 21, 0.18);
+}
+
